@@ -13,3 +13,4 @@ print(dividir(['a', 'b', 'b', 'c', 'c', 'c', 'd']))
 # ab
 # bc
 # cd
+
