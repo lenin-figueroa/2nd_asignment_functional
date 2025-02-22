@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0852731-823d-4553-9bd6-b2cba11a3930" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/2nd_asignment_functional.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_excercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2_excercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3_excercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_excercise.py" afterDir="false" />
+    <list default="true" id="c0852731-823d-4553-9bd6-b2cba11a3930" name="Changes" comment="primer commit x">
+      <change afterPath="$PROJECT_DIR$/ejercicio_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_excercise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_excercise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_excercise.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_excercise.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +27,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lenin-figueroa"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lenin-figueroa/2nd_asignment_functional.git",
+    "accountId": "4d6f31f3-605a-479c-8073-df38816a4993"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2rsDw8OR20nKaVtReyZaYXnHmCf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,6 +51,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.1_excercise.executor": "Run",
+    "Python.3_excercise.executor": "Run",
+    "Python.4_excercise.executor": "Run",
+    "Python.Ejercicio 2.executor": "Run",
+    "Python.Ejercicio 3.executor": "Run",
+    "Python.ejercicio_4.executor": "Run",
+    "Python.ejercicio_5.executor": "Run",
+    "Python.ejercicio_6.executor": "Run",
+    "Python.ejercicio_7.executor": "Run",
+    "Python.ejercicio_8.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -63,6 +80,39 @@
       <option name="presentableId" value="Default" />
       <updated>1737339124578</updated>
     </task>
+    <task id="LOCAL-00001" summary="primer commit">
+      <option name="closed" value="true" />
+      <created>1737429132039</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737429132039</updated>
+    </task>
+    <task id="LOCAL-00002" summary="primer commit x">
+      <option name="closed" value="true" />
+      <created>1737429559864</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737429559864</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primer commit" />
+    <MESSAGE value="primer commit x" />
+    <option name="LAST_COMMIT_MESSAGE" value="primer commit x" />
   </component>
 </project>
