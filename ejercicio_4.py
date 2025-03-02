@@ -7,5 +7,7 @@ def dividir(lista):
     resultado.append(lista[-1])  # Agregar el último elemento
     return ''.join(resultado)
 
-# Ejemplo de uso
-print(dividir('abbcccd'))
+if __name__ == "__main__":
+    cadena = input("Ingrese una cadena de caracteres: ")
+    print(dividir(cadena))
+    input("Presione Enter para salir...")

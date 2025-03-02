@@ -3,5 +3,7 @@ def cuadrado(cadena):
     for _ in range(len(cadena)):
         print(cadena)
 
-# Ejemplo de uso
-cuadrado("abcde0")
+if __name__ == "__main__":
+    cadena = input("Ingrese una cadena de caracteres: ")
+    cuadrado(cadena)
+    input("Presione Enter para salir...")

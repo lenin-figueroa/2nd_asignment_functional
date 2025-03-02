@@ -4,6 +4,8 @@ def nded(lista):
     # Devuelve la cantidad de elementos distintos
     return len(elementos_distintos)
 
-numeros = [1, 2, 2, 3, 4, 4, 5]
-resultado = nded(numeros)
-print(f"Número de elementos distintos: {resultado}")
+if __name__ == "__main__":
+    numeros = list(map(int, input("Ingrese una lista de números separados por espacios: ").split()))
+    resultado = nded(numeros)
+    print(f"Número de elementos distintos: {resultado}")
+    input("Presione Enter para salir...")

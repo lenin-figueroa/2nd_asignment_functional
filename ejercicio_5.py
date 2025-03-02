@@ -13,7 +13,8 @@ def noDoble(cadena):
     
     return ''.join(resultado)  # Unimos la lista en una cadena y la devolvemos.
 
-# Ejemplo de uso
-cadena_ejemplo = "abcccfabadeff"
-resultado = noDoble(cadena_ejemplo)
-print(resultado)  # Salida: "abcfabadef"
+if __name__ == "__main__":
+    cadena_ejemplo = input("Ingrese una cadena de caracteres: ")
+    resultado = noDoble(cadena_ejemplo)
+    print(f"Resultado: {resultado}")
+    input("Presione Enter para salir...")

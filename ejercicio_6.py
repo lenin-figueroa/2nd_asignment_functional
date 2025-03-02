@@ -5,11 +5,9 @@ def posiciones(elemento, lista):
             indices.append(i)  # Agregamos su índice a la lista
     return indices  # Devolvemos la lista de índices
 
-# Ejemplos de uso
-resultado1 = posiciones(4, [1, 4, 3, 7, 4, 2])
-resultado2 = posiciones([3, 5], [[3, 6], [2, 5]])
-resultado3 = posiciones(10, [1, 2, 3])  # Elemento no presente
-
-print(f"Posiciones del 4: {resultado1}")  # Debería mostrar [1, 4]
-print(f"Posiciones de [3, 5]: {resultado2}")  # Debería mostrar []
-print(f"Posiciones del 10: {resultado3}")  # Debería mostrar []
+if __name__ == "__main__":
+    elemento = int(input("Ingrese el elemento a buscar: "))
+    lista = list(map(int, input("Ingrese una lista de números separados por espacios: ").split()))
+    resultado = posiciones(elemento, lista)
+    print(f"Posiciones del {elemento}: {resultado}")
+    input("Presione Enter para salir...")

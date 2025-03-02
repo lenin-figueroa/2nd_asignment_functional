@@ -3,6 +3,7 @@ def diag(caracteres):
         # Imprimimos el carácter con un número de espacios igual a su índice
         print(' ' * i + char)
 
-# Ejemplo de uso
-lista_de_caracteres = ['a', 'b', 'c', 'd', 'e']
-diag(lista_de_caracteres)
+if __name__ == "__main__":
+    lista_de_caracteres = input("Ingrese una lista de caracteres separados por espacios: ").split()
+    diag(lista_de_caracteres)
+    input("Presione Enter para salir...")

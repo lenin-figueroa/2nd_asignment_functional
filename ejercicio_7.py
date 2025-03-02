@@ -9,6 +9,8 @@ def ndedc(lista):
             
     return count
 
-numeros = [1, 1, 2, 2, 3, 4, 4, 5, 6, 10]
-resultado = ndedc(numeros)
-print(f"Número de elementos distintos: {resultado}")
+if __name__ == "__main__":
+    numeros = list(map(int, input("Ingrese una lista de números separados por espacios: ").split()))
+    resultado = ndedc(numeros)
+    print(f"Número de elementos distintos: {resultado}")
+    input("Presione Enter para salir...")

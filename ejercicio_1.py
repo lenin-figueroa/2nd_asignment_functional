@@ -9,6 +9,8 @@ def contar_negativos(lista):
             
     return contador
 
-numeros = [3, -1, 4, -2, 0, -5, 6]
-resultado = contar_negativos(numeros)
-print(f"Número de elementos negativos: {resultado}")
+if __name__ == "__main__":
+    numeros = list(map(int, input("Ingrese una lista de números separados por espacios: ").split()))
+    resultado = contar_negativos(numeros)
+    print(f"Número de elementos negativos: {resultado}")
+    input("Presione Enter para salir...")
